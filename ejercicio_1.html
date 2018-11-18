@@ -1,42 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Box Model</title>
-	<style>
-		.box{
-			height: 100px;
-			widht: 25%;
-			margin: 5px;
-			padding: 5px;
-			background-color: gray;
-		}
-		.box2{
-			height: 100px;
-			widht: 25%;
-			margin: 5px;
-			padding: 5px;
-			background-color: gray;
-		}
-		.box3{
-			height: 100px;
-			widht: 25%;
-			margin: 5px;
-			padding: 5px;
-			background-color: gray;
-		}
-		.box4{
-			height: 100px;
-			widht: 25%;
-			margin: 5px;
-			padding: 5px;
-			background-color: gray;
-		}
-	</style>
+ <meta charset="utf-8">
+ <title>Box Model</title>
+ <style>
+ li{
+    width: 90px;
+ 	float: left;
+ }
+ .nvar{
+ 	width: 100%;
+ 	height: 50px;
+ 	background-color: green;
+ 	float: left;
+
+ }
+ .imagen{
+ 	height:80px;
+ 	width: 80px;
+ 	margin: 10px;
+ 	margin-right: 180px;
+    margin-left: 40px;
+
+ }
+.box4{
+	width: calc(25% - 10px);
+	float: left;
+    height: 300px;
+    margin:5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+ </style>
 </head>
 <body>
-	<div class="box"> </div>
-	<div class="box2"> </div>
-	<div class="box3"> </div>
-	<div class="box4"> </div>
+	<div class="nvar">
+		<ul style="list-style-type:none">
+			<li> hola </li>
+			<li> como </li>
+			<li> estas</li>
+		</ul>
+	</div>
+	<div class=box1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum vero laudantium, dolore at incidunt, amet dignissimos fugit, suscipit quasi reiciendis consequuntur labore ducimus sunt illum similique. Ab, tenetur unde harum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore odit eius neque itaque cum asperiores tempore perferendis magnam nobis doloremque ad quam similique necessitatibus, libero explicabo nulla. Maxime, error quae!.</p>
+	</div>
+	<div class=box2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ea ad, ratione quasi cum modi, laudantium culpa magni dolorem recusandae voluptatem ipsum quidem adipisci nobis optio repellat vitae libero illum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nesciunt illum aliquid? Neque sit odio dolor quam ipsa atque consequuntur corrupti dolorum, maiores! Aliquid unde eveniet excepturi, incidunt pariatur aperiam..</p>
+    </div>
+	<div class=box3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dolorum fuga eveniet saepe et eaque, adipisci quod laudantium repellendus numquam aspernatur eligendi deleniti quaerat temporibus voluptatum ducimus debitis aliquid nostrum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti porro molestias ex voluptas eveniet recusandae, doloribus ullam neque animi id ratione quo assumenda ab alias qui, aliquid sequi repellendus!.</p>
+	</div>
+	<div class=box4>
+		<img src="file:///C:/Users/Ariana/Pictures/logo_latam_mini.png" alt="logolatam" class="imagen">
+	<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quidem dolor. Quasi quos beatae id ratione! Veritatis vitae suscipit debitis amet cum, vel non commodi, tenetur, laborum repellendus magni molestiae  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quod laborum at perspiciatis amet doloremque quasi alias quos saepe provident maxime tempore quas deleniti reiciendis expedita et, illum odit facere.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, animi, voluptatum. Sit, alias vitae sunt soluta quo maxime earum ipsa beatae. Autem quis expedita itaque laboriosam sapiente voluptate voluptatem illo..</p>
+   </div>
+   <div class=box4>
+		<img src="file:///C:/Users/Ariana/Pictures/logo_latam_mini.png" alt="logolatam" class="imagen">
+	<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quidem dolor. Quasi quos beatae id ratione! Veritatis vitae suscipit debitis amet cum, vel non commodi, tenetur, laborum repellendus magni molestiae  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quod laborum at perspiciatis amet doloremque quasi alias quos saepe provident maxime tempore quas deleniti reiciendis expedita et, illum odit facere.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, animi, voluptatum. Sit, alias vitae sunt soluta quo maxime earum ipsa beatae. Autem quis expedita itaque laboriosam sapiente voluptate voluptatem illo..</p>
+   </div>
+   <div class=box4>
+		<img src="file:///C:/Users/Ariana/Pictures/logo_latam_mini.png" alt="logolatam" class="imagen">
+	<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quidem dolor. Quasi quos beatae id ratione! Veritatis vitae suscipit debitis amet cum, vel non commodi, tenetur, laborum repellendus magni molestiae  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quod laborum at perspiciatis amet doloremque quasi alias quos saepe provident maxime tempore quas deleniti reiciendis expedita et, illum odit facere.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, animi, voluptatum. Sit, alias vitae sunt soluta quo maxime earum ipsa beatae. Autem quis expedita itaque laboriosam sapiente voluptate voluptatem illo..</p>
+   </div>
+   <div class=box4>
+		<img src="file:///C:/Users/Ariana/Pictures/logo_latam_mini.png" alt="logolatam" class="imagen">
+	<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quidem dolor. Quasi quos beatae id ratione! Veritatis vitae suscipit debitis amet cum, vel non commodi, tenetur, laborum repellendus magni molestiae  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quod laborum at perspiciatis amet doloremque quasi alias quos saepe provident maxime tempore quas deleniti reiciendis expedita et, illum odit facere.Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, animi, voluptatum. Sit, alias vitae sunt soluta quo maxime earum ipsa beatae. Autem quis expedita itaque laboriosam sapiente voluptate voluptatem illo..</p>
+   </div>
+</body>
 </html>
+
+	
